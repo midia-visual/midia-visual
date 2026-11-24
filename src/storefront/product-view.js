@@ -21,10 +21,10 @@ function priceAndMinimum(p) {
 export function productCard(p) {
   return `<article class="product-card">
     <button class="product-image detail-trigger" data-detail="${escapeHTML(p.id)}" aria-label="Ver detalhes de ${escapeHTML(p.name)}">
-    <img ${previewSource(p.images[0])} alt="${escapeHTML(p.name)}" loading="lazy" width="750" height="750">${p.description.includes('Sob encomenda')?'<span class="product-tag">SOB ENCOMENDA</span>':''}<span class="details-label">Ver detalhes ↗</span>
+    <img ${previewSource(p.images[0])} alt="${escapeHTML(p.name)}" loading="lazy" width="750" height="750">${p.description.includes('Sob encomenda')?'<span class="product-tag">SOB ENCOMENDA</span>':''}
     </button>
     <p class="category">${escapeHTML(p.category)}</p>
-    <h3>${escapeHTML(p.name)}</h3>${p.description?`<p class="description">${escapeHTML(p.description)}</p>`:''}${priceAndMinimum(p)}
+    <h3>${escapeHTML(p.name)}</h3>${priceAndMinimum(p)}
     ${colorPicker(p,`card-color-${escapeHTML(p.id)}`)}<button class="add" data-add="${escapeHTML(p.id)}">Adicionar à sacola <span aria-hidden="true">＋</span>
     </button>
     </article>`;
