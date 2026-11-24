@@ -18,6 +18,10 @@ Acesse http://localhost:8000. Requer Python 3. Abra via servidor HTTP: o catálo
 
 O site usa caminhos relativos e funciona no endereço de projeto `https://eduardobs.github.io/midia-visual/` e em domínio próprio. Para utilizar um domínio próprio, configure-o no GitHub Pages e ajuste o DNS conforme as instruções exibidas pelo GitHub. Nenhum domínio foi alterado nesta implementação.
 
+## Organização do código
+
+A vitrine começa em `src/storefront/main.js`. Os módulos nessa pasta cuidam da listagem, dos detalhes de produto e da interface da sacola. As regras de preço, quantidade e composição do pedido ficam em `src/shared/cart.js`. O painel em `admin/` tem módulos próprios para validar o catálogo e editar cores e faixas de preço.
+
 ## Atualizar produtos
 
 Edite `data/products.json` e coloque fotos em `assets/products/`. Não é necessário compilar. Cada produto contém:
@@ -43,7 +47,7 @@ Exemplo de galeria (adicione as fotos correspondentes em `assets/products/`):
 ]
 ```
 
-Clique na foto do catálogo para abrir o detalhe do produto. As miniaturas permitem escolher as fotos adicionais. Os produtos atuais têm uma foto cada; outras fotos podem ser incluídas na lista quando disponíveis.
+Clique na foto do catálogo para abrir o detalhe do produto. As miniaturas permitem escolher as fotos adicionais. Para imagens WebP em `assets/products/`, a vitrine procura uma miniatura com o mesmo nome em `assets/products/thumbs/`. Se ela estiver ausente, carrega a original. A foto ampliada sempre usa o caminho cadastrado.
 
 Os 61 produtos foram transcritos do **Catálogo Mídia Visual – Nov 2026.pdf** fornecido pelo proprietário. Fotos extraídas do PDF e convertidas em WebP. Produtos sem preço no documento permanecem sob consulta; fotos de modelos ilustram essas linhas personalizadas. O chaveiro Pai Nosso custa R$ 9,00 até 30 unidades e R$ 6,00 a partir de 31. As condições de pagamento e entrega também vêm do PDF. Preços, cores, arte e disponibilidade são confirmados pela loja.
 
@@ -65,7 +69,7 @@ npm test                  # Testes unitários e integridade do catálogo
 npx playwright install chromium
 npm run test:e2e          # E2E em Chromium desktop e celular
 npm run test:all          # Todas as suítes
-node --check app.js
+node --check src/storefront/main.js
 ```
 
 Os testes unitários usam o executor nativo do Node.js. Verificam integridade do catálogo e das fotos, limites de quantidade, restauração e duplicatas da sacola, faixas de desconto, formatação monetária e composição da mensagem.

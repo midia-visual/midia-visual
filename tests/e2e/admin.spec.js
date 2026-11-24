@@ -88,7 +88,7 @@ test('admin adiciona várias imagens em base64, exporta e permite remover ou can
 });
 
 test('admin edita faixas com limite exclusivo, ordena e remove', async ({page}) => {
-  const {unitPrice} = await import('../../cart.js');
+  const {unitPrice} = await import('../../src/shared/cart.js');
   const product = products.find(product => product.priceTiers?.length);
   await page.goto('/admin/');
   await expect(page.locator('#products tr')).toHaveCount(products.length);

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {unitPrice, validQuantity, restoreCart, money, buildMessage} from '../cart.js';
+import {unitPrice, validQuantity, restoreCart, money, buildMessage} from '../src/shared/cart.js';
 
 const product = {id: 'A', name: 'Caneta', price: 1.1, minimumQuantity: 10, unit: 'unidade'};
 const custom = {id: 'B', name: 'Brinde personalizado', price: null, minimumQuantity: 1, unit: 'kit'};

@@ -209,3 +209,16 @@ test('cor é opcional e acompanha cada item da sacola até o WhatsApp', async ({
   await expect(rows).toHaveCount(2);
   await expect(blue).toHaveCount(0);
 });
+
+test('usa a miniatura no cartão e recupera a original quando a miniatura falta', async ({page}) => {
+  const [first, second] = products;
+  const thumbnail = image => image.replace('assets/products/', 'assets/products/thumbs/');
+  await page.route('**/' + thumbnail(second.images[0]), route => route.fulfill({status: 404}));
+  await page.goto('/');
+  const cover = product => page.locator(`[data-detail="${product.id}"] img`);
+  await expect(cover(first)).toHaveAttribute('src', thumbnail(first.images[0]));
+  await cover(second).scrollIntoViewIfNeeded();
+  await expect(cover(second)).toHaveAttribute('src', second.images[0]);
+  await cover(first).click();
+  await expect(page.locator('#detail-image')).toHaveAttribute('src', first.images[0]);
+});

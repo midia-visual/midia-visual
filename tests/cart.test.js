@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
-import {unitPrice,validQuantity,restoreCart,buildMessage} from '../cart.js';
+import {unitPrice,validQuantity,restoreCart,buildMessage} from '../src/shared/cart.js';
 const products=JSON.parse(readFileSync(new URL('../data/products.json',import.meta.url)));
 test('catálogo possui identificadores únicos, preços válidos e fotos locais',()=>{
  assert.equal(new Set(products.map(p=>p.id)).size,products.length);
