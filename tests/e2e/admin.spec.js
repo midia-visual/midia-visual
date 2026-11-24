@@ -3,9 +3,10 @@ import {readFileSync} from 'node:fs';
 const products = JSON.parse(readFileSync(new URL('../../data/products.json', import.meta.url)));
 
 test('admin edita, cria, restaura rascunho, exporta e remove produtos', async ({page}) => {
+  const product = products.find(p => !p.colors?.length);
   await page.goto('/admin');
   await expect(page.locator('#products tr')).toHaveCount(products.length);
-  await page.getByRole('searchbox').fill(products[0].name);
+  await page.getByRole('searchbox').fill(product.name);
   await page.getByRole('button', {name: 'Editar', exact: true}).first().click();
   await page.getByLabel('Nome', {exact: true}).fill('Produto alterado');
   const solidColor = page.getByLabel('Cor sólida');
@@ -37,8 +38,8 @@ test('admin edita, cria, restaura rascunho, exporta e remove produtos', async ({
   await page.getByRole('button', {name: 'Baixar products.json'}).click();
   const download = await downloadPromise;
   const exported = JSON.parse(readFileSync(await download.path(), 'utf8'));
-  expect(exported.find(p => p.id === products[0].id).name).toBe('Produto alterado');
-  expect(exported.find(p => p.id === products[0].id).colors).toEqual([{name: 'Azul intenso', hex: '#0000ff'}]);
+  expect(exported.find(p => p.id === product.id).name).toBe('Produto alterado');
+  expect(exported.find(p => p.id === product.id).colors).toEqual([{name: 'Azul intenso', hex: '#0000ff'}]);
   expect(exported.find(p => p.id === 'TEST001').colors).toBeUndefined();
   expect(exported.find(p => p.id === 'TEST001').price).toBeNull();
   await page.getByRole('searchbox').fill('termico teste');

@@ -18,6 +18,24 @@
       "assets/products/chaveiro-pe-de-galinha-7.webp",
       "assets/products/chaveiro-pe-de-galinha-8.webp",
       "assets/products/chaveiro-pe-de-galinha-9.webp"
+    ],
+    "colors": [
+      {
+        "name": "Vermelho",
+        "hex": "#ff0000"
+      },
+      {
+        "name": "Azul",
+        "hex": "#0000ff"
+      },
+      {
+        "name": "Verde",
+        "hex": "#008000"
+      },
+      {
+        "name": "Preto",
+        "hex": "#000000"
+      }
     ]
   },
   {
@@ -32,6 +50,12 @@
     "images": [
       "assets/products/chaveiro-de-couro-1.webp",
       "assets/products/chaveiro-de-couro-2.webp"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#000000"
+      }
     ]
   },
   {
@@ -49,6 +73,12 @@
       "assets/products/chaveiro-metal-e-couro-3.webp",
       "assets/products/chaveiro-metal-e-couro-4.webp",
       "assets/products/chaveiro-metal-e-couro-5.webp"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#000000"
+      }
     ]
   },
   {
@@ -91,6 +121,12 @@
       "assets/products/lixocar-de-couro-sintetico-1.webp",
       "assets/products/lixocar-de-couro-sintetico-2.webp",
       "assets/products/lixocar-de-couro-sintetico-3.webp"
+    ],
+    "colors": [
+      {
+        "name": "Marrom",
+        "hex": "#8b4513"
+      }
     ]
   },
   {
@@ -127,6 +163,28 @@
       "assets/products/caneta-metal-touch-3.webp",
       "assets/products/caneta-metal-touch-4.webp",
       "assets/products/caneta-metal-touch-5.webp"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#000000"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#ffc0cb"
+      },
+      {
+        "name": "Verde",
+        "hex": "#008000"
+      },
+      {
+        "name": "Azul claro",
+        "hex": "#87ceeb"
+      },
+      {
+        "name": "Azul escuro",
+        "hex": "#00008b"
+      }
     ]
   },
   {
@@ -145,6 +203,16 @@
       "assets/products/kit-executivo-4-pecas-4.webp",
       "assets/products/kit-executivo-4-pecas-5.webp",
       "assets/products/kit-executivo-4-pecas-6.webp"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#000000"
+      },
+      {
+        "name": "Azul",
+        "hex": "#0000ff"
+      }
     ]
   },
   {
@@ -187,6 +255,12 @@
       "assets/products/caderneta-com-caneta-2.webp",
       "assets/products/caderneta-com-caneta-3.webp",
       "assets/products/caderneta-com-caneta-4.webp"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#000000"
+      }
     ]
   },
   {
@@ -461,6 +535,12 @@
       "assets/products/kit-mateira-completo-2.webp",
       "assets/products/kit-mateira-completo-3.webp",
       "assets/products/kit-mateira-completo-4.webp"
+    ],
+    "colors": [
+      {
+        "name": "Marrom",
+        "hex": "#8b4513"
+      }
     ]
   },
   {
@@ -499,6 +579,20 @@
       "assets/products/copo-termico-cuia-360-ml-7.webp",
       "assets/products/copo-termico-cuia-360-ml-8.webp",
       "assets/products/copo-termico-cuia-360-ml-9.webp"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#000000"
+      },
+      {
+        "name": "Branco",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Azul",
+        "hex": "#0000ff"
+      }
     ]
   },
   {
@@ -516,6 +610,16 @@
       "assets/products/porta-long-neck-termico-3-em-1-3.webp",
       "assets/products/porta-long-neck-termico-3-em-1-4.webp",
       "assets/products/porta-long-neck-termico-3-em-1-5.webp"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#000000"
+      },
+      {
+        "name": "Branco",
+        "hex": "#ffffff"
+      }
     ]
   },
   {
@@ -531,6 +635,12 @@
       "assets/products/MV035.webp",
       "assets/products/copo-termico-cafe-350-ml-2.webp",
       "assets/products/copo-termico-cafe-350-ml-3.webp"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#000000"
+      }
     ]
   },
   {
@@ -548,6 +658,16 @@
       "assets/products/garrafa-termica-650-ml-3.webp",
       "assets/products/garrafa-termica-650-ml-4.webp",
       "assets/products/garrafa-termica-650-ml-5.webp"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#000000"
+      },
+      {
+        "name": "Branco",
+        "hex": "#ffffff"
+      }
     ]
   },
   {
@@ -575,6 +695,16 @@
     "images": [
       "assets/products/MV038.webp",
       "assets/products/copo-termico-473ml-2.webp"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#000000"
+      },
+      {
+        "name": "Azul escuro",
+        "hex": "#00008b"
+      }
     ]
   },
   {

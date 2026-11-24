@@ -44,7 +44,7 @@ for (const [sort, compare] of [
 ]) {
   test(`ordenação ${sort}`, async ({page}) => {
     await load(page);
-    await page.getByRole('combobox').selectOption(sort);
+    await page.getByRole('combobox', {name: 'Ordenar'}).selectOption(sort);
     await expect(cards(page)).toHaveCount(Math.min(12, products.length));
     await showAll(page);
     await expect(cards(page).locator('h3')).toHaveText([...products].sort(compare).map(p => p.name));
