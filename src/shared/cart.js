@@ -45,5 +45,5 @@ export function buildMessage(cart, products, notes, storeName) {
   const order = lines.map(({item, product: p, price}) => {
     return `• ${p.name} (${p.id})${item.color ? '\n  Cor: ' + item.color : ''}\n  Quantidade: ${item.quantity} | ${price === null ? 'Valor sob consulta' : money(price) + '/' + p.unit + ' | Subtotal: ' + money(price * item.quantity)}`;
   });
-  return [`Olá, ${storeName}! Gostaria de solicitar um orçamento:`, '', ...order, '', `${unknown ? 'Subtotal dos itens com preço' : 'Total dos produtos'}: ${money(total)}`, ...(unknown ? ['Há itens com valor sob consulta.'] : []), ...(notes.trim() ? ['', 'Cores e personalização: ' + notes.trim()] : []), '', 'Por favor, confirmem a disponibilidade, personalização, prazo e frete. Enviarei a arte de gravação nesta conversa.'].join('\n');
+  return [`Olá, ${storeName}! Gostaria de solicitar um orçamento:`, '', ...order, '', `${unknown ? 'Subtotal dos itens com preço' : 'Total dos produtos'}: ${money(total)}`, ...(unknown ? ['Há itens com valor sob consulta.'] : []), ...(notes.trim() ? ['', 'Cores e personalização: ' + notes.trim()] : []), '', 'Por favor, confirmem a disponibilidade, personalização, prazo e frete.'].join('\n');
 }
