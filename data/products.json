@@ -6,7 +6,7 @@
     "price": 2.65,
     "minimumQuantity": 100,
     "minimumSpecified": true,
-    "description": "Cores disponíveis: Vermelho, azul, verde e preto.",
+    "description": "",
     "unit": "unidade",
     "images": [
       "assets/products/chaveiro-pe-de-galinha-1.webp",
@@ -45,7 +45,7 @@
     "price": 16,
     "minimumQuantity": 50,
     "minimumSpecified": true,
-    "description": "Cor disponível: Preto.",
+    "description": "",
     "unit": "unidade",
     "images": [
       "assets/products/chaveiro-de-couro-1.webp",
@@ -65,7 +65,7 @@
     "price": 16,
     "minimumQuantity": 50,
     "minimumSpecified": true,
-    "description": "Cor disponível: Preto.",
+    "description": "",
     "unit": "unidade",
     "images": [
       "assets/products/MV003.webp",
@@ -92,7 +92,8 @@
     "unit": "unidade",
     "images": [
       "assets/products/abridor-de-garrafas-cabo-madeira-1.webp",
-      "assets/products/abridor-de-garrafas-cabo-madeira-2.webp"
+      "assets/products/abridor-de-garrafas-cabo-madeira-2.webp",
+      "assets/products/abridor-de-garrafas-cabo-madeira-3.webp"
     ]
   },
   {
@@ -115,12 +116,15 @@
     "price": 25,
     "minimumQuantity": 10,
     "minimumSpecified": true,
-    "description": "Cor disponível: marrom.",
+    "description": "",
     "unit": "unidade",
     "images": [
       "assets/products/lixocar-de-couro-sintetico-1.webp",
       "assets/products/lixocar-de-couro-sintetico-2.webp",
-      "assets/products/lixocar-de-couro-sintetico-3.webp"
+      "assets/products/lixocar-de-couro-sintetico-3.webp",
+      "assets/products/lixocar-de-couro-sintetico-4.webp",
+      "assets/products/lixocar-de-couro-sintetico-5.webp",
+      "assets/products/lixocar-de-couro-sintetico-6.webp"
     ],
     "colors": [
       {
@@ -136,7 +140,7 @@
     "price": 3.7,
     "minimumQuantity": 30,
     "minimumSpecified": true,
-    "description": "Preto, Vermelho, Rosa e Azul.",
+    "description": "",
     "unit": "unidade",
     "images": [
       "assets/products/caneta-metal-1.webp",
@@ -146,6 +150,32 @@
       "assets/products/caneta-metal-5.webp",
       "assets/products/caneta-metal-6.webp",
       "assets/products/caneta-metal-7.webp"
+    ],
+    "colors": [
+      {
+        "name": "preto",
+        "hex": "#000000"
+      },
+      {
+        "name": "Vermelho",
+        "hex": "#ff0000"
+      },
+      {
+        "name": "Azul",
+        "hex": "#0062ff"
+      },
+      {
+        "name": "Verde",
+        "hex": "#08ba2b"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#ec09b0"
+      },
+      {
+        "name": "Laranja",
+        "hex": "#ec8d09"
+      }
     ]
   },
   {
@@ -155,7 +185,7 @@
     "price": 3.9,
     "minimumQuantity": 50,
     "minimumSpecified": true,
-    "description": "Cores disponíveis: Preto, rosa, verde, azul claro e azul escuro.",
+    "description": "",
     "unit": "unidade",
     "images": [
       "assets/products/caneta-metal-touch-1.webp",
@@ -170,10 +200,6 @@
         "hex": "#000000"
       },
       {
-        "name": "Rosa",
-        "hex": "#ffc0cb"
-      },
-      {
         "name": "Verde",
         "hex": "#008000"
       },
@@ -184,6 +210,10 @@
       {
         "name": "Azul escuro",
         "hex": "#00008b"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#ff0095"
       }
     ]
   },
@@ -194,7 +224,7 @@
     "price": 49,
     "minimumQuantity": 5,
     "minimumSpecified": true,
-    "description": "Kit com caderneta, caneta, porta-cartão e chaveiro, na caixinha preta.\nCores disponíveis: Preto e azul.",
+    "description": "Kit com caderneta, caneta, porta-cartão e chaveiro, na caixinha preta.",
     "unit": "unidade",
     "images": [
       "assets/products/MV009.webp",
@@ -235,10 +265,16 @@
     "price": 25,
     "minimumQuantity": 10,
     "minimumSpecified": true,
-    "description": "Sob encomenda.",
+    "description": "Consulte mais cores disponíveis sob encomenda.",
     "unit": "unidade",
     "images": [
       "assets/products/MV011.webp"
+    ],
+    "colors": [
+      {
+        "name": "Vermelho",
+        "hex": "#ff0000"
+      }
     ]
   },
   {
@@ -248,7 +284,7 @@
     "price": 18,
     "minimumQuantity": 10,
     "minimumSpecified": true,
-    "description": "Cor disponível: Preto.",
+    "description": "Consulte mais cores disponíveis sob encomenda.",
     "unit": "unidade",
     "images": [
       "assets/products/MV012.webp",
@@ -324,12 +360,26 @@
     "price": 15,
     "minimumQuantity": 1,
     "minimumSpecified": false,
-    "description": "Acrílico espelhado dourado ou prata. Gravação a laser personalizada.",
+    "description": "Gravação a laser personalizada.",
     "unit": "unidade",
     "images": [
       "assets/products/marca-pagina-espelhado-1.webp",
       "assets/products/marca-pagina-espelhado-2.webp",
       "assets/products/marca-pagina-espelhado-3.webp"
+    ],
+    "colors": [
+      {
+        "name": "Dourado",
+        "hex": "#dfc416"
+      },
+      {
+        "name": "Prata",
+        "hex": "#c7c7c7"
+      },
+      {
+        "name": "Rose",
+        "hex": "#e5b8b8"
+      }
     ]
   },
   {
@@ -385,7 +435,8 @@
       "assets/products/tabua-de-carne-4524-cm-com-cabo-1.webp",
       "assets/products/tabua-de-carne-4524-cm-com-cabo-2.webp",
       "assets/products/tabua-de-carne-4524-cm-com-cabo-3.webp",
-      "assets/products/tabua-de-carne-4524-cm-com-cabo-4.webp"
+      "assets/products/tabua-de-carne-4524-cm-com-cabo-4.webp",
+      "assets/products/tabua-de-carne-4524-cm-com-cabo-5.webp"
     ]
   },
   {
@@ -444,7 +495,7 @@
     "price": 65,
     "minimumQuantity": 1,
     "minimumSpecified": false,
-    "description": "Saca-rolhas, bico condutor com tampa, cortador de lacre e wine colar. Maleta com alça, trava e interior de veludo.",
+    "description": "Saca-rolhas, bico condutor com tampa, cortador de lacre e wine colar.\nMaleta com alça, trava e interior de veludo.",
     "unit": "unidade",
     "images": [
       "assets/products/MV025.webp"
@@ -528,13 +579,14 @@
     "price": 270,
     "minimumQuantity": 1,
     "minimumSpecified": false,
-    "description": "Mateira, porta-erva, garrafa 1 L, bomba e cuia porongo.\nCor disponível: Marrom.",
+    "description": "Mateira, porta-erva, garrafa 1 L, bomba e cuia porongo.",
     "unit": "unidade",
     "images": [
       "assets/products/kit-mateira-completo-1.webp",
       "assets/products/kit-mateira-completo-2.webp",
       "assets/products/kit-mateira-completo-3.webp",
-      "assets/products/kit-mateira-completo-4.webp"
+      "assets/products/kit-mateira-completo-4.webp",
+      "assets/products/kit-mateira-completo-5.webp"
     ],
     "colors": [
       {
@@ -557,7 +609,16 @@
       "assets/products/kit-cuia-porongo-bomba-caixa-2.webp",
       "assets/products/kit-cuia-porongo-bomba-caixa-3.webp",
       "assets/products/kit-cuia-porongo-bomba-caixa-4.webp",
-      "assets/products/kit-cuia-porongo-bomba-caixa-5.webp"
+      "assets/products/kit-cuia-porongo-bomba-caixa-5.webp",
+      "assets/products/kit-cuia-porongo-bomba-caixa-6.webp",
+      "assets/products/kit-cuia-porongo-bomba-caixa-7.webp",
+      "assets/products/kit-cuia-porongo-bomba-caixa-8.webp"
+    ],
+    "colors": [
+      {
+        "name": "caixa preta",
+        "hex": "#000000"
+      }
     ]
   },
   {
@@ -567,7 +628,7 @@
     "price": 39,
     "minimumQuantity": 10,
     "minimumSpecified": true,
-    "description": "Cores disponíveis: preto, branco e azul.",
+    "description": "",
     "unit": "unidade",
     "images": [
       "assets/products/copo-termico-cuia-360-ml-1.webp",
@@ -602,14 +663,15 @@
     "price": 49,
     "minimumQuantity": 10,
     "minimumSpecified": true,
-    "description": "Cor disponível: Preto e Branco.",
+    "description": "",
     "unit": "unidade",
     "images": [
       "assets/products/MV034.webp",
       "assets/products/porta-long-neck-termico-3-em-1-2.webp",
       "assets/products/porta-long-neck-termico-3-em-1-3.webp",
       "assets/products/porta-long-neck-termico-3-em-1-4.webp",
-      "assets/products/porta-long-neck-termico-3-em-1-5.webp"
+      "assets/products/porta-long-neck-termico-3-em-1-5.webp",
+      "assets/products/porta-long-neck-termico-3-em-1-6.webp"
     ],
     "colors": [
       {
@@ -629,16 +691,22 @@
     "price": 26,
     "minimumQuantity": 10,
     "minimumSpecified": true,
-    "description": "Cor disponível: Preto.",
+    "description": "",
     "unit": "unidade",
     "images": [
       "assets/products/MV035.webp",
       "assets/products/copo-termico-cafe-350-ml-2.webp",
-      "assets/products/copo-termico-cafe-350-ml-3.webp"
+      "assets/products/copo-termico-cafe-350-ml-3.webp",
+      "assets/products/copo-termico-cafe-350-ml-4.webp",
+      "assets/products/copo-termico-cafe-350-ml-5.webp"
     ],
     "colors": [
       {
         "name": "Preto",
+        "hex": "#000000"
+      },
+      {
+        "name": "preto",
         "hex": "#000000"
       }
     ]
@@ -650,14 +718,15 @@
     "price": 49,
     "minimumQuantity": 1,
     "minimumSpecified": false,
-    "description": "Cores disponíveis: Preto e branco.",
+    "description": "",
     "unit": "unidade",
     "images": [
       "assets/products/MV036.webp",
       "assets/products/garrafa-termica-650-ml-2.webp",
-      "assets/products/garrafa-termica-650-ml-3.webp",
       "assets/products/garrafa-termica-650-ml-4.webp",
-      "assets/products/garrafa-termica-650-ml-5.webp"
+      "assets/products/garrafa-termica-650-ml-5.webp",
+      "assets/products/garrafa-termica-650-ml-5-2.webp",
+      "assets/products/garrafa-termica-650-ml-6.webp"
     ],
     "colors": [
       {
@@ -677,10 +746,20 @@
     "price": 49,
     "minimumQuantity": 10,
     "minimumSpecified": true,
-    "description": "Sob encomenda. Consulte cores.",
+    "description": "",
     "unit": "unidade",
     "images": [
       "assets/products/MV037.webp"
+    ],
+    "colors": [
+      {
+        "name": "preto",
+        "hex": "#000000"
+      },
+      {
+        "name": "Azul",
+        "hex": "#2040df"
+      }
     ]
   },
   {
@@ -690,7 +769,7 @@
     "price": 39,
     "minimumQuantity": 10,
     "minimumSpecified": true,
-    "description": "Cores disponíveis: Preto e Azul escuro.",
+    "description": "",
     "unit": "unidade",
     "images": [
       "assets/products/MV038.webp",
@@ -720,6 +799,12 @@
       "assets/products/MV039.webp",
       "assets/products/bolsa-termica-13-litros-2.webp",
       "assets/products/bolsa-termica-13-litros-3.webp"
+    ],
+    "colors": [
+      {
+        "name": "preto",
+        "hex": "#000000"
+      }
     ]
   },
   {
@@ -787,6 +872,12 @@
     "images": [
       "assets/products/MV044.webp",
       "assets/products/porta-whisky-2.webp"
+    ],
+    "colors": [
+      {
+        "name": "preto",
+        "hex": "#000000"
+      }
     ]
   },
   {
@@ -796,10 +887,16 @@
     "price": 110,
     "minimumQuantity": 1,
     "minimumSpecified": false,
-    "description": "ACM gravado a laser 21 × 15 cm. Estojo em veludo preto.",
+    "description": "ACM gravado a laser 21×15 cm",
     "unit": "unidade",
     "images": [
       "assets/products/MV045.webp"
+    ],
+    "colors": [
+      {
+        "name": "estojo preto",
+        "hex": "#000000"
+      }
     ]
   },
   {
@@ -900,6 +997,12 @@
       "assets/products/porta-retrato-de-eternizacao-3.webp",
       "assets/products/porta-retrato-de-eternizacao-4.webp",
       "assets/products/porta-retrato-de-eternizacao-5.webp"
+    ],
+    "colors": [
+      {
+        "name": "Acabamento dourado",
+        "hex": "#d8d10e"
+      }
     ]
   },
   {
@@ -914,6 +1017,16 @@
     "images": [
       "assets/products/porta-retrato-formatura-1.webp",
       "assets/products/porta-retrato-formatura-2.webp"
+    ],
+    "colors": [
+      {
+        "name": "colorido",
+        "hex": "#000000"
+      },
+      {
+        "name": "Dourado",
+        "hex": "#ceb227"
+      }
     ]
   },
   {
